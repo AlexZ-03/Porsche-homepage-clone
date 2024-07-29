@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu h1{
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.menu i{
+    cursor: pointer;
+}
+
+.logo{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 32%;
+}
+
+.logo-main{
+    width: 200px;
+}
+
+/* slider */
+
+.slider{
+    width: 100%;
+    height: 550px;
+    background-image: url(images/porsche-bg1.webp);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.slider-text{
+    color: white;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.slider-text h1{
+    font-size: 40px;
+    margin-left: 90px;
+    margin-bottom: 5px;
+}
+.slider-icon h2{
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+.slider-icon{
+    display: flex;
+    margin-left: 70px;
+}
+
+.slider-text:hover{
+    color: red;
+}
+
+/* models */
+
+.models {
+    height: 100px;
+}
+
+.models-text {
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* car-models */
+
+.car-models{
+    height: 800px;
+}
+
+.section-1{
+    height: 400px;
+    display: flex;
+}
+
+.car-1{
+    height: 400px;
+    width: 1000px;
+    background-image: url(images/car1.webp);
+    background-size: cover;
+}
+
+.car-2{
+    height: 400px;
+    width: 1000px;
+    background-image: url(images/car2.webp);
+    background-size: cover;
+}
+
+.car-3{
+    height: 400px;
+    width: 1000px;
+    background-image: url(images/car3.webp);
+    background-size: cover;
+}
+
+.car-4{
+    height: 400px;
+    width: 1000px;
+    background-image: url(images/car4.webp);
+    background-size: cover;
+}
+
+.car-5{
+    height: 400px;
+    width: 1000px;
+    background-image: url(images/car5.webp);
+    background-size: cover;
+}
+
+.car-6{
+    height: 400px;
+    width: 1000px;
+    background-image: url(images/car6.webp);
+    background-size: cover;
+}
+
+.car-text{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+}
+
+.car-btn{
+    padding-top: 250px;
+    padding-left: 50px;
+}
+
+.car-btn1{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.car-btn2{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: 500;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+    transition: border 0.15s, color 0.15s;
+}
+
+.car-btn1:hover{
+    background-color: red;
+    color: white;
+}
+
+.car-btn2:hover{
+    border: 2px solid red;
+    color: red;
+}
+
+/* spec */
+
+.spec-tag{
+    height: 60px;
+}
+
+.spec-tag h1{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 100px;
+    padding-top: 15px;
+}
+
+/* near-you */
+
+.near-you-tag{
+    height: 100px;
+}
+
+.near-you-tag h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 100px;
+    padding-top: 15px;
+
+}
+
+/* find-car */
+
+.find-car{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-car-models{
+    width: 80%;
+    height: 350px;
+    display: flex;
+}
+
+
+.find-car1{
+    width: 1000px;
+    height: 350px;
+}
+
+.find-car2{
+    width: 1000px;
+    height: 250px;
+}
+
+.find-car3{
+    width: 1000px;
+    height: 250px;
+}
+
+.find-car1 img{
+    width: 100%;
+    height: 250px;
+}
+
+.find-car2 img{
+    width: 100%;
+    height: 250px;
+}
+
+.find-car3 img{
+    width: 100%;
+    height: 250px;
+}
+
+.find-car button{
+    margin-top: 30px;
+    margin-left: 110PX;
+}
+
+.find-car button{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.find-car button:hover{
+    background-color: red;
+}
+
+/* tools-tag */
+
+.tools-tag{
+    height: 100px;
+}
+
+.tools-tag h1{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.tools-providing{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools-section{
+    height: 300px;
+    width: 87%;
+    display: flex;
+}
+
+.tools1{
+    height: 300px;
+    width: 34%;
+    display: inline-block;
+    position: relative;
+}
+
+.tools2{
+    height: 300px;
+    width: 22%;
+}
+
+.tools3{
+    height: 300px;
+    width: 22%;
+}
+
+.tools2{
+    height: 300px;
+    width: 22%;
+}
+
+.tools1 img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.tools1 button{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    transition: color 0.15s;
+    cursor: pointer;
+}
+
+.tools1 button:hover{
+    color: red;
+}
+
+/* social-tag */
+
+.social-tag{
+    height: 100px;
+}
+
+.social-tag h1{
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 33px;
+}
+
+.social-posts{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-sec1{
+    height: 600px;
+    width: 87%;
+    display: flex;
+}
+
+.social-sec-1{
+    height: 600px;
+    width: 500px;
+}
+
+.social-sec-2{
+    height: 600px;
+    width: 500px;
+}
+
+.social-sec-3{
+    height: 600px;
+    width: 500px;
+}
+
+.sec-img-2{
+    display: flex;
+}
+
+.img-1{
+    width: 98%;
+    height: 370px;
+    border: 5px solid white;
+    padding: 0;
+    margin: 0;
+}
+
+.img-2{
+    width: 48%;
+    height: 220px;
+    padding: 0;
+    margin: 0;
+    border: 5px solid white;
+}
+
+.img-3{
+    width: 48%;
+    height: 220px;
+    padding: 0;
+    margin: 0;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.img-4{
+    width: 98%;
+    height: 370px;
+    padding: 0;
+    margin: 0;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+
+.social-btn{
+    height: 80px;
+    display: flex;
+}
+
+.social-btn button{
+    height: 43px;
+    width: 120px;
+    position: absolute;
+    right: 8.6%;
+    margin: 20px;
+    color: white;
+    background-color: rgb(57, 50, 50);
+    border: 0;
+    font-size: 15px;
+    font-weight: 400;
+    transition: background-color 0.15s;
+}
+
+.social-btn button:hover{
+    background-color: red;
+}
+
+
+/* discover */
+
+.discover{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.discover h1{
+    font-size: 40px;
+    margin-left: 145px;
+}
+
+.discover-box{
+    height: 300px;
+    justify-content: center;
+    display: flex;
+}
+
+.discover-item-box{
+    height: 300px;
+    width: 80%;
+    display: flex;
+}
+
+.discover-item-box1{
+    height: 300px;
+    width: 500px;
+}
+
+.discover-item-box2{
+    height: 300px;
+    width: 500px;
+}
+
+.discover-item-box3{
+    height: 300px;
+    width: 500px;
+}
+
+.discover-item-box4{
+    height: 300px;
+    width: 500px;
+}
+
+.discover-item-box1 img{
+    height: 250px;
+    width: 100%;
+}
+
+.discover-item-box2 img{
+    height: 250px;
+    width: 100%;
+}
+
+.discover-item-box3 img{
+    height: 250px;
+    width: 100%;
+}
+
+.discover-item-box4 img{
+    height: 250px;
+    width: 100%;
+}
+
+.discover-item-box button{
+    font-size: 15px;
+    font-weight: 300;
+    background-color: transparent;
+    color: black;
+    border: 0;
+    transition: color 0.15s;
+    cursor: pointer;
+}
+
+.discover-item-box button:hover{
+    color: red;
+}
+
+/* footer */
+
+.footer{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section{
+    height: 300px;
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer-section1{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-section2{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-section3{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-section4{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-section h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-section h2{
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.footer-section h2:hover{
+    color: red;
+}
+
+.footer-social{
+    height: 140px;
+    display: flex;
+    flex-direction: column  ;
+}
+
+.share-btn{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 1080px;
+    margin-top: 30px;
+    border: 0;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.share-btn i{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+.footer-social h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 1080px;
+    margin-top: 40px;
+}
+
+.footer-social-links{
+    height: 80px;
+    display: flex;
+}
+
+.footer-social-links button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 0;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.share-btn:hover{
+    background-color: red;
+}
+
+.fb-btn:hover{
+    background-color: #4267B2; 
+}
+
+.yt-btn:hover{
+    background-color: rgb(218, 37, 37);
+}
+
+.pr-btn:hover{
+    background-color: #E60023;
+}
+
+.ig-btn:hover{
+    background-color: #4267B2;
+}
+
+.li-btn:hover{
+    background-color: rgb(6, 90, 246);
+}
+
+#move{
+    margin-left: 1060px;
+}
+
+.footer-region{
+    height: 150px;
+    background-color: rgb(26, 24, 24);
+}
+
+.footer-region h1{
+    font-size: 25px;
+    font-weight: 500;
+    color: beige;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.footer-region select{
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.dropdown-selector{
+    margin-left: 100px;
+}
+.footer-bottom{
+    height: 80px;
+    background-color: rgb(26, 24, 24);
+    display: flex;
+    justify-content: center;
+}
+.footer-copy-right{
+    height: 80px;
+    width: 87%;
+    display: inline;
+}
+
+.footer-copy-right h2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-copy-right a{
+    color: aliceblue;
+    transition: color 0.15s;
+}
+
+.footer-copy-right a:hover{
+    color: red;
+}
+
+.footer-copy-right h2{
+    color: aliceblue;
+    margin-bottom: 6px;
+}
